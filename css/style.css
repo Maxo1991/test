@@ -1,0 +1,94 @@
+*{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    margin-bottom: 50px;
+    border-bottom: 5px solid #3ca4cc;
+    text-transform: uppercase;
+    color: #3ca4cc;
+}
+.navbar-brand{
+    font-size: 30px;
+}
+footer {
+    margin-top: 150px;
+    border-top: 5px solid #3ca4cc;
+    width: 100%;
+    height: 100px;
+}
+footer p{
+    color: #3ca4cc;
+    height: 100px;
+    line-height: 100px;
+    text-transform: uppercase;
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+.login-logout-button{
+    color: #3ca4cc !important;
+}
+#login .form-control{
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#admin-create-product{
+    padding: 50px;
+    border-bottom: 5px dotted #3ca4cc;
+}
+.card-img-top{
+    height: 348px;
+}
+hr{
+    border-bottom: 5px dotted #3ca4cc;
+}
+.comments h4{
+    font-style: italic;
+    margin-bottom: 0;
+}
+.comments h6{
+    font-style: italic;
+}
+#create-product .form-control{
+    width: 44%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.disable-links{
+    pointer-events: none;
+}
+#list-accepted-comments{
+    border-bottom: 5px dotted #3ca4cc;
+    padding: 50px;
+}
+#list-accepted-comments h3{
+    padding-bottom: 20px;
+}
+#list-product{
+    border-bottom: 5px dotted #3ca4cc;
+    padding: 50px;
+}
+#list-product .btn{
+    width: 30%;
+}
+#list-product table{
+    margin-top: 50px;
+}
+#list-product table .btn{
+    width: 100%;
+}
+#list-product table a{
+    color: white;
+}
+#hidden-list-product{
+    display: none;
+}
+#table-list-products{
+    display: none;
+}
+#admin-edit-product .form-control{
+    width: 43%;
+    margin-left: auto;
+    margin-right: auto;
+}
